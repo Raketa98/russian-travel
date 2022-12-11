@@ -1,0 +1,8 @@
+.root {
+  max-width: 1600px;
+  margin: 0 auto;
+  background: #E5E5E5;
+  color: #fff;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; 
+}
