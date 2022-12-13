@@ -6,3 +6,10 @@
   background-size: cover;
   margin-bottom: 8px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    width: 928px;
+    height: 580px;
+  }
+}

@@ -9,3 +9,10 @@
   line-height: 1.06;
   grid-area: place__title;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+    margin-right: 32px;
+  }
+}

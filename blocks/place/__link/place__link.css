@@ -1,8 +1,13 @@
 .place__link {
   margin: 0;
   padding: 0;
+  max-width: 456px;
   font-family: 'Regular', Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.22;
   color: #fff;
+}
+
+.place__link:hover {
+  opacity: .8;
 }
