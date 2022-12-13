@@ -21,9 +21,9 @@
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/_margin/place_margin_bottom.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_margin/place__image_margin_bottom.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website/_margin/place__website_margin_top.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
