@@ -24,3 +24,9 @@
     height: 480px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .cover__background {
+    height: 200px;
+  }
+}

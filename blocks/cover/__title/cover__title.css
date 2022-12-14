@@ -8,3 +8,13 @@
   line-height: 1.06;
   text-align: center;
 }
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    max-width: 255px;
+    margin-top: 33px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
