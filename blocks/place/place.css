@@ -2,8 +2,7 @@
   display: grid;
   grid-template-areas:
     'place__title place__website'
-    'place__image place__desc'
-  ;
+    'place__image place__desc';
   margin-bottom: 80px;
 }
 
@@ -19,9 +18,8 @@
     grid-template-areas:
       'place__title'
       'place__website'
-      'place__image' 
-      'place__desc'
-    ;
+      'place__image'
+      'place__desc';
     margin-bottom: 50px;
   }
 }
