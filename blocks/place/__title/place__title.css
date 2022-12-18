@@ -1,11 +1,11 @@
 .place__title {
   margin: 0;
   padding: 0;
-  margin-right: 40px;
-  margin-bottom: 48px;
   max-width: 460px;
-  font-family: 'Black', Arial, Helvetica, sans-serif;
+  margin-bottom: 48px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 72px;
+  font-weight: 900;
   line-height: 1.06;
   grid-area: place__title;
 }
@@ -13,26 +13,21 @@
 @media screen and (max-width: 1024px) {
   .place__title {
     max-width: 440px;
-    margin-right: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
     max-width: 330px;
-    margin-right: 28px;
     font-size: 42px;
     line-height: 1.09;
-    display: flex;
-    align-items: flex-end;
   }
 }
 
 @media screen and (max-width: 425px) {
   .place__title {
     max-width: 288px;
-    margin-bottom: 32px;
     font-size: 32px;
-    line-height: 1.09;
+    margin-bottom: 32px;
   }
 }

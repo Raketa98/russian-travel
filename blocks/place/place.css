@@ -1,14 +1,37 @@
 .place {
-  display: grid;
-  grid-template-areas:
-    'place__title place__website'
-    'place__image place__desc';
+  display: grid; 
+  grid-template-areas: 
+  'place__title place__website' 
+  'place__image place__desc';
+  column-gap: 40px;
   margin-bottom: 80px;
 }
 
+.place:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+  }
+} 
+
 @media screen and (max-width: 768px) {
   .place {
-    margin-bottom: 73px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place {
+    display: grid;
+    grid-template-areas:
+    'place__title'
+    'place__website'
+    'place__image'
+    'place__desc';
+    margin-bottom: 50px;
   }
 }
 
@@ -16,10 +39,10 @@
   .place {
     display: grid;
     grid-template-areas:
-      'place__title'
-      'place__website'
-      'place__image'
-      'place__desc';
+    'place__title'
+    'place__website'
+    'place__image'
+    'place__desc';
     margin-bottom: 50px;
   }
 }
