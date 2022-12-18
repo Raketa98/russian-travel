@@ -1,5 +1,5 @@
 .place {
-  display: grid; 
+  display: grid;
   grid-template-areas: 
   'place__title place__website' 
   'place__image place__desc';
