@@ -21,5 +21,6 @@
 @media screen and (max-width: 425px) {
   .place__url-heading {
     max-width: 288px;
+    margin: 0 16px;
   }
 }

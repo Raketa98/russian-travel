@@ -32,5 +32,6 @@
 @media screen and (max-width: 425px) {
   .place__paragraph {
     max-width: 320px;
+    margin: 0 16px;
   }
 }
