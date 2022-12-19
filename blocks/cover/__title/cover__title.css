@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   max-width: 560px;
+  margin-bottom: 32px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 72px;
   font-weight: 900;
@@ -12,12 +13,13 @@
 @media screen and (max-width: 520px) {
   .cover__title {
     max-width: 380px;
+    margin-bottom: 16px;
     font-size: 50px;
   }
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 370px) {
   .cover__title {
     max-width: 255px;
     font-size: 32px;

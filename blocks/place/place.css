@@ -35,14 +35,3 @@
   }
 }
 
-@media screen and (max-width: 425px) {
-  .place {
-    display: grid;
-    grid-template-areas:
-    'place__title'
-    'place__website'
-    'place__image'
-    'place__desc';
-    margin-bottom: 50px;
-  }
-}

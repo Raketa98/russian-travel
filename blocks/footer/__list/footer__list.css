@@ -6,16 +6,17 @@
   gap: 18px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 576px) {
   .footer__list {
     flex-direction: column;
+    row-gap: 32px;
     margin-bottom: 48px;
   }
 }
 
-@media screen and (max-width: 425px) {
+/* @media screen and (max-width: 425px) {
   .footer__list {
     flex-direction: column;
     margin-bottom: 48px;
   }
-}
+} */
