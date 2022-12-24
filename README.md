@@ -10,5 +10,7 @@
 * Grid
 * Адаптив
 
-* [Ссылка на проект](https://raketa98.github.io/russian-travel/)
+-----
+
+[Ссылка на проект](https://raketa98.github.io/russian-travel/)
 
